@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Responsive 10, Tables and Tiles</title>
+		<style type="text/css">
+			body {
+				background-color: #DDDDDD;
+				padding: 0px;
+				margin:0px;
+			}
+			
+			.main {
+				background-color: white;
+			}
+			
+			.imgdiv {
+				background-color: #ffcb00;
+				width: 100%;
+				text-align: center;
+			}
+			
+			.headerimg {
+				max-width: 100%;
+				height: auto;
+			}
+			
+			@media (min-width: 910px){
+				body {
+					background-image: url('img/map.jpg');
+					background-size: 100%;
+					background-repeat:repeat-y;
+					padding-top: 1em;
+				}
+				.main {
+					width: 900px;
+					margin: auto;
+				}
+				
+				.text-container {
+					padding-left: 1em;
+					padding-right: 1em;
+				}
+				
+				.col1 {
+					display: inline-block;
+					width: 20%;
+					vertical-align: top;
+				}
+				.col2 {
+					display: inline-block;
+					width: 20%;
+					vertical-align: top;
+					margin-left: 1em;
+				}
+				.col3 {
+					display: inline-block;
+					width: 50%;
+					vertical-align: top;
+					margin-left: 1em;
+				}
+				
+				.header {
+					font-weight: bold;
+				}
+				
+				.line {
+					padding-bottom: 2em;
+				}
+			}
+			
+			
+			@media (max-width: 909px) {
+				.header {
+					display: none;
+				}
+				
+				.line {
+					display: inline-block;
+					width: 30%;
+					border: 1px solid black;
+					vertical-align: top;
+					margin-bottom: 2em;
+					padding: 1%;
+				}
+				
+				.col1 {
+					font-weight: bold;
+					margin-bottom: 1em;
+				}
+				
+				.col2 {
+						margin-bottom: 1em;
+				}
+				
+				.col2:before {
+					content: 'Reign: ';
+				}
+				
+			}
+			
+			@media (max-width: 499px){
+				.line {
+					width: 45%;
+				}
+			}
+			
+			@media (max-width: 300px){
+				.line {
+					width: 95%;
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="imgdiv">
+				<img class="headerimg" src="img/byzantium_long.jpg" />
+			</div>
+			<div class="text-container" >
+				<h1>Byzantine Emperors</h1>
+				
+				<div class="header">
+					<div class="col1">Name</div><div class="col2">Reign</div><div class="col3">Comments</div>
+				</div>
+				
+				<div class="line">
+					<div class="col1">Constantine I "the Great"</div>
+					<div class="col2">(Greek: Κωνσταντίνος Α' ο Μέγας, Latin: Gaius Flavius Valerius Aurelius Constantinus)	19 September 324 – 22 May 337 </div>
+					<div class="col3">
+						Born at Naissus ca. 273/4 as the son of the Augustus Constantius Chlorus and Helena. Proclaimed Augustus of the western empire upon the death of his father on 25 July 306, he became sole ruler of the western empire after the Battle of the Milvian Bridge in 312. In 324, he defeated the eastern Augustus Licinius and re-united the empire under his rule, reigning as sole emperor until his death. Constantine completed the administrative and military reforms begun under Diocletian, ushering the Dominate period. Actively interested in Christianity, he played a crucial role in its development and the Christianization of the Roman world, through his convocation of the First Ecumenical Council at Nicaea. He is said to have received baptism on his deathbed. He also reformed coinage through the introduction of the gold solidus, and initiated a large-scale building program, crowned by the re-foundation the city of Byzantium as "New Rome", popularly known as Constantinople. He was regarded as the model of all subsequent Byzantine emperors.[4]
+					</div>
+				</div>
+				<div class="line">
+					<div class="col1">Constantius</div>
+					<div class="col2">(Κωνστάντιος [Β'], Flavius Iulius Constantius)	22 May 337 – 5 October 361</div>
+					<div class="col3">
+						Born on 7 August 317, as the second son of Constantine I. He inherited the eastern third of Roman Empire upon his father's death, sole Roman Emperor from 353, after the overthrow of the western usurper Magnentius. Constantius' reign saw militarily activity on all frontiers, and dissension between Arianism, favoured by the emperor, and the "Orthodox" supporters of the Nicene Creed. In his reign, Constantinople was accorded equal status to Rome, and the original Hagia Sophia was built. Constantius appointed Constantius Gallus and Julian as Caesares, and died on his way to confront Julian, who had risen up against him.[5]
+					</div>
+				</div>
+				<div class="line">
+					<div class="col1">Constans I</div>
+					<div class="col2">(Κώνστας Α', Flavius Iulius Constans)	22 May 337 – January 350</div>
+					<div class="col3"> 
+						Born c. 323, the third son of Constantine I. Caesar since 333, he inherited the central third of Roman Empire upon his father's death, and became sole emperor in the west following the death of Constantine II in 348. An ardent supporter of Athanasius of Alexandria, he opposed Arianism. Constans was assassinated during the coup of Magnentius.[6]
+					</div>
+				</div>
+				<div class="line">
+					<div class="col1">Julian "the Apostate"</div>
+					<div class="col2">(Ιουλιανός "ο Παραβάτης", Flavius Claudius Iulianus)	5 October 361 – 28 June 363</div>
+					<div class="col3">
+						Born in May 332, grandson of Constantius Chlorus and cousin of Constantius II. Proclaimed by his army in Gaul, became legitimate Emperor upon the death of Constantius. Killed on campaign against Sassanid Persia
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	
+	</body>
+
+</html>
