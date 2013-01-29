@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Responsive 6, Changing Layout</title>
+		<style type="text/css">
+			body {
+				background-color: #DDDDDD;
+				padding: 0px;
+				margin:0px;
+			}
+			
+			.main {
+				background-color: white;
+			}
+			
+			.imgdiv {
+				background-color: #ffcb00;
+				width: 100%;
+				text-align: center;
+			}
+			
+			.headerimg {
+				max-width: 100%;
+				height: auto;
+			}
+			
+			.text-container {
+				float: left;
+			}
+			
+			.sidebar {
+				background-color: #EEEEFF;
+				padding: .5em;
+				float: right;
+			}
+			
+			.clear {
+				clear: both;
+			}
+			
+			@media (min-width: 910px) {
+				body {
+					background-image: url('img/map.jpg');
+					background-size: 100%;
+					background-repeat: repeat-y;
+					padding-top: 1em;
+				}
+				.main {
+					width: 900px;
+					margin: auto;
+					overflow: hidden;
+				}
+				
+				.text-container {
+					padding-left: 1em;
+					padding-right: 1em;
+					width: 62%;
+				}
+				
+				.sidebar {
+					display: inline-block;
+					float: right;
+					width: 30%;
+					margin-left: 1em;
+					margin-bottom: -1000px;
+					padding-bottom: 1000px;
+				}
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="imgdiv">
+				<img class="headerimg" src="img/byzantium_long.jpg" />
+			</div>
+			<div class="text-container" >
+				<h1>History of Byzantium</h1>
+				
+				<p>
+				Byzantium (bih-zan-tee-uhm; Greek: Βυζάντιον, Byzántion; Latin: BYZANTIVM) was an ancient Greek city, founded by Greek colonists from Megara in 657 BC and named after their king Byzas (Greek: Βύζας, Býzas, genitive Βύζαντος, Býzantos). The name Byzantium is a Latinization of the original name Byzantion. The city was later renamed Nova Roma by Constantine the Great, but popularly called Constantinople and briefly became the imperial residence of the classical Roman Empire. Then subsequently the city was, for more than a thousand years, the capital of the Byzantine Empire, the Greek-speaking Roman Empire of late Antiquity and the Middle Ages. Constantinople was captured by the Ottoman Turks, becoming the capital of their empire, in 1453. The name of the city was officially changed to Istanbul in 1930 following the establishment of modern Turkey.
+				</p>
+				
+				<h2>History</h2>
+				<p>
+				The origins of Byzantium are shrouded in legend. The traditional legend has it that Byzas from Megara (a town near Athens), founded Byzantium in 657 BC, when he sailed northeast across the Aegean Sea. Byzas had consulted the Oracle at Delphi to ask where to make his new city. The Oracle told him to find it "opposite the blind." At the time, he did not know what this meant. But when he came upon the Bosporus he understood: on the opposite eastern shore was a Greek city, Chalcedon, whose founders were said to have overlooked the superior location only 3 kilometres (1.9 mi) away. Byzas founded his city here on the European coast and named it Byzantium after himself. It was mainly a trading city due to its location at the Black Sea's only entrance. Byzantion later conquered Chalcedon, across the Bosporus on the Asiatic side.
+				</p>
+				
+				<p>
+				After siding with Pescennius Niger against the victorious Septimius Severus, the city was besieged by Roman forces and suffered extensive damage in 196 AD.[1] Byzantium was rebuilt by Septimius Severus, now emperor, and quickly regained its previous prosperity. It was bound to Perinthos during the period of Septimius Severus. The location of Byzantium attracted Roman Emperor Constantine I who, in 330 AD, refounded it as an imperial residence inspired by Rome itself. (See Nova Roma.) After his death the city was called Constantinople (Greek Κωνσταντινούπολις or Konstantinoupolis) ('city of Constantine'). It remained the capital of the Eastern Roman Empire, which is called the Byzantine Empire by modern historians. This combination of imperialism and location would affect Constantinople's role as the nexus point between two continents: Europe and Asia. It was a commercial, cultural, and diplomatic magnet. With its strategic position, Constantinople controlled the route between Asia and Europe, as well as the passage from the Mediterranean Sea to the Black Sea. On May 29, 1453, the city fell to the Ottoman Turks, and again became the capital of a powerful state, the Ottoman Empire. The Turks called the city Istanbul (though not officially renamed until 1930) and it has remained Turkey's largest and most populous city, although Ankara is now the capital.
+				</p>
+			</div>
+			<div class="sidebar" >
+				<h2>Art and literature</h2>
+				<p>
+				Byzantine art is almost entirely concerned with religious expression and, more specifically, with the impersonal translation of carefully controlled church theology into artistic terms. Byzantine forms were spread by trade and conquest to Italy and Sicily, where they persisted in modified form through the 12th century, and became formative influences on Italian Renaissance art. By means of the expansion of the Eastern Orthodox church, Byzantine forms spread to centres in Russia, Greece, Serbia and some others.[181] Influences from Byzantine architecture, particularly in religious buildings, can be found in diverse regions from Egypt and Arabia to Russia and Romania.
+				</p>
+			</div>
+			
+			
+			<div class="clear"></div>
+		</div> <!-- /main -->
+	
+	
+	
+	</body>
+
+</html>

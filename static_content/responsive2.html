@@ -1,15 +1,29 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Non Responsive, Phone Version 2</title>
+		<title>Responsive 2, Resizing the Content Pane</title>
 		<style type="text/css">
 			body {
-				background-color: #EEEEEE;
-				background-image: url('img/map.jpg')
+				background-color: #DDDDDD;
+				padding: 0px;
+				margin:0px;
+				padding-top: 10px;
 			}
+			
 			.main {
-				font-size: .1em;
 				background-color: white;
+			}
+			
+			@media (min-width: 910px) {
+				body {
+					background-image: url('img/map.jpg');
+					background-size: 100%;
+					background-repeat:no-repeat;
+				}
+				.main {
+					width: 900px;
+					margin: auto;
+				}
 			}
 		</style>
 	</head>
