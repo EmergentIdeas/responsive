@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Responsive 11, Spacing Buttons</title>
+		<style type="text/css">
+			body {
+				background-color: #DDDDDD;
+				padding: 0px;
+				margin:0px;
+			}
+			
+			.main {
+				background-color: white;
+			}
+			
+			.imgdiv {
+				background-color: #ffcb00;
+				width: 100%;
+				text-align: center;
+			}
+			
+			.headerimg {
+				max-width: 100%;
+				height: auto;
+			}
+			
+			@media (max-width: 910px) {
+				button {
+					margin-bottom: 3em;
+					margin-right: 3em;
+				}
+			}
+			
+			@media (min-width: 910px) {
+				body {
+					background-image: url('img/map.jpg');
+					background-size: 100%;
+					background-repeat:no-repeat;
+					padding-top: 1em;
+				}
+				.main {
+					width: 900px;
+					margin: auto;
+				}
+				
+				.text-container {
+					padding-left: 1em;
+					padding-right: 1em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="imgdiv">
+				<img class="headerimg" src="img/byzantium_long.jpg" />
+			</div>
+			<div class="text-container" >
+				<h1>History of Byzantium</h1>
+				
+				<p>
+				What is your favorite thing about the Byzantine Empire?
+				</p>
+				
+				<textarea rows="5" cols="40"></textarea>
+				
+				<br/>
+				<button>Submit</button>
+				<button>Cancel</button>
+				
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+			</div>
+		</div>
+	
+	
+	
+	</body>
+
+</html>
